@@ -182,6 +182,7 @@ nav a{
     display: block;
     max-width: 400px;
     height: 90vh;
+    max-height: 688px;
   }
 
   .imageBox span{
