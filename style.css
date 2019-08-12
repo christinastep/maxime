@@ -151,7 +151,8 @@ nav a{
     overflow: hidden;
     justify-content: space-between;
     width:100vw;
-    max-height: 90vh;
+    height: 90vh;
+    max-height: 800px;
     align-items: flex-start;
     align-items: center;
     padding:0 20px;
@@ -169,6 +170,10 @@ nav a{
   }
   nav a{
     margin-right: 65px;
+  }
+
+  span{
+    margin-bottom: 30px;
   }
 }
 
