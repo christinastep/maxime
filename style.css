@@ -164,7 +164,6 @@ nav a{
   section{
     flex-direction: row;  
     height:100vh;
-    overflow: hidden;
     justify-content: space-between;
     width:100vw;
     height: 90vh;
@@ -175,19 +174,20 @@ nav a{
   }
 
   .imageBox{
-    max-width: 400px;
+    position: relative;
+    max-height: 90vh;
   }
 
   img{
     display: block;
-    width: 100%;
+    max-width: 400px;
+    height: 90vh;
   }
 
   .imageBox span{
     position: absolute;
-    bottom:0px;
+    bottom:-20px;
     font-size: 10px;
-    padding-left: 10px;
   }
 
   p{
