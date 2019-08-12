@@ -81,9 +81,9 @@ main{
   max-width: 600px;
 }
 
-img{
+/* img{
   width:100vw;
-}
+} */
 
 h1{
   color: transparent;
@@ -97,7 +97,7 @@ p{
   color: #6a6a6a;
 }
 
-span{
+.headline{
   font-family: "goldenbookw01-lightregular";
   font-size: 75px;
   text-transform: uppercase;
@@ -120,14 +120,30 @@ nav a{
     font-size: 14px;
     line-height: 32px;
   }
-  span{
-    margin-top: 55px;
+  .headline{
+    margin-top: 65px;
     font-size: 45px;
+    margin-bottom: 30px;
+  }
+  .imageBox{
+    height:120vw;
+    width:100vw;
+    position: relative;
   }
   img{
-    height:120vw;
     object-position: right top;
     object-fit: cover;
+    height:120vw;
+  }
+  .imageBox span{
+    position: absolute;
+    bottom:-20px;
+    font-size: 10px;
+    padding-left: 10px;
+
+  }
+  img{
+    display: inline-block
   }
   nav a{
     margin-right: 35px;
@@ -156,12 +172,24 @@ nav a{
     align-items: flex-start;
     align-items: center;
     padding:0 20px;
-  } 
+  }
+
+  .imageBox{
+    max-width: 400px;
+  }
+
   img{
     display: block;
-    width: auto;
-    height: 100%;
+    width: 100%;
   }
+
+  .imageBox span{
+    position: absolute;
+    bottom:0px;
+    font-size: 10px;
+    padding-left: 10px;
+  }
+
   p{
     padding-right: 20px;
   }
@@ -172,7 +200,7 @@ nav a{
     margin-right: 65px;
   }
 
-  span{
+  .headline{
     margin-bottom: 30px;
   }
 }
