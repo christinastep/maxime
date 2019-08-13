@@ -191,7 +191,7 @@ nav a{
   .imageBox{
     position: relative;
     width:36%;
-    max-height: 85vh;
+    max-height: 80vh;
     background-color: green;
     max-width: 1077px;
     opacity: 0;
@@ -202,7 +202,7 @@ nav a{
     display:block;
     width: 100%;
     object-fit: cover;
-    max-height: 85vh;
+    max-height: 80vh;
   }
 
   .imageBox span{
