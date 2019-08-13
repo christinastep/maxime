@@ -207,9 +207,10 @@ nav a{
 
   .imageBox span{
     position: absolute;
-    bottom:-2.5vw;
+    /* bottom:-2.5vw; */
     padding-left: 0;
     font-size: 1.15vw;
+    margin-bottom: -1vw;
   }
 
   p{
