@@ -148,8 +148,9 @@ nav a{
   }
   .imageBox span{
     padding-left: 28px;
-    bottom: -40px;
-    font-size: 14px;
+    padding-right: 18px;
+    bottom: -28px;
+    font-size: 13px;
   }
 
   img{
@@ -168,6 +169,9 @@ nav a{
   nav a{
     margin-right: 10px;
     font-size: 18px;
+  }
+  .imageBox span{
+    bottom: -38px;
   }
 }
 @media screen and (min-width: 640px) {
@@ -218,8 +222,8 @@ nav a{
     position: absolute;
     /* bottom:-2.5vw; */
     padding-left: 0;
-    font-size: 97.75vw;
-    margin-bottom: -1vw;
+    font-size: 0.97vw;
+    margin-bottom: -0.5vw;
   }
 
   p{
