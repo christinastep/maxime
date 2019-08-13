@@ -218,7 +218,7 @@ nav a{
     position: absolute;
     /* bottom:-2.5vw; */
     padding-left: 0;
-    font-size: 1.15vw;
+    font-size: 97.75vw;
     margin-bottom: -1vw;
   }
 
@@ -241,7 +241,7 @@ nav a{
   }
 
   .headline{
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     font-size: 5.5vw;
     display: block;
     opacity: 0;
