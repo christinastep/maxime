@@ -134,6 +134,7 @@ nav a{
     object-position: right top;
     object-fit: cover;
     height:120vw;
+    width:100vw;
   }
   .imageBox span{
     position: absolute;
