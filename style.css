@@ -73,21 +73,17 @@ table {
 section{
   display: flex;
   flex-direction: column-reverse;
-  max-width: 1140px;
   font-family: "akkuratregular";
 
 }
-main{
-  max-width: 600px;
-}
 
 .imageBox span{
-  font-size: 10px;
+  font-size: 16px;
   padding-left: 10px;
   font-family: 'EB Garamond', serif;
   position: absolute;
-    bottom:-20px;
-    left: 0;
+  bottom:-20px;
+  left: 0;
 }
 
 /* img{
@@ -132,12 +128,13 @@ nav a{
   .headline{
     margin-top: 65px;
     font-size: 45px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
   .imageBox{
     height:120vw;
     width:100vw;
     position: relative;
+    margin-bottom: 40px;
   }
   img{
     object-position: right top;
@@ -146,14 +143,17 @@ nav a{
     width:100vw;
   }
   .imageBox span{
-    
+    padding-left: 28px;
+    bottom: -40px;
+    font-size: 14px;
   }
 
   img{
     display: inline-block
   }
   nav a{
-    margin-right: 35px;
+    margin-right: 30px;
+    font-size: 14px;
   }
   nav{
     margin-top: 50px;
@@ -172,44 +172,55 @@ nav a{
     flex-direction: row;  
     height:100vh;
     justify-content: space-between;
-    width:100vw;
-    height: 90vh;
-    max-height: 800px;
+    width:82vw;
+    background-color: red;
     align-items: flex-start;
     align-items: center;
     padding:0 20px;
   }
 
+  main{
+    width: 55%;
+    background-color: yellow;
+  }
+
   .imageBox{
     position: relative;
-    max-height: 90vh;
+    width:36%;
+    max-height: 85vh;
+    background-color: green;
+    max-width: 1077px;
   }
 
   img{
-    display: block;
-    max-width: 400px;
-    height: 90vh;
-    max-height: 688px;
+    display:block;
+    /* width: 100%; */
+    max-height: 85vh;
   }
 
   .imageBox span{
     position: absolute;
-    bottom:-20px;
-    font-size: 10px;
+    bottom:-1.5vw;
+    padding-left: 0;
+    font-size: 1.15vw;
   }
 
   p{
     padding-right: 20px;
+    font-size: 1.15vw;
+    line-height: 2.35vw;
   }
   nav{
     margin-top: 50px;
   }
   nav a{
     margin-right: 65px;
+    font-size: 1.15vw;
   }
 
   .headline{
     margin-bottom: 30px;
+    font-size: 5.5vw;
   }
 }
 
