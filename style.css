@@ -84,6 +84,7 @@ section{
   position: absolute;
   bottom:-20px;
   left: 0;
+  font-style: italic;
 }
 
 /* img{
@@ -108,7 +109,6 @@ p{
   text-transform: uppercase;
   display: block;
   margin-bottom: 20px;
-  font-style: italic;
 }
 
 nav a{
