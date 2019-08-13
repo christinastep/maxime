@@ -108,6 +108,7 @@ p{
   text-transform: uppercase;
   display: block;
   margin-bottom: 20px;
+  font-style: italic;
 }
 
 nav a{
@@ -131,7 +132,7 @@ nav a{
   .headline{
     margin-top: 65px;
     font-size: 45px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
   }
   .imageBox{
     height:120vw;
