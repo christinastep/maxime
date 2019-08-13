@@ -81,6 +81,15 @@ main{
   max-width: 600px;
 }
 
+.imageBox span{
+  font-size: 10px;
+  padding-left: 10px;
+  font-family: 'EB Garamond', serif;
+  position: absolute;
+    bottom:-20px;
+    left: 0;
+}
+
 /* img{
   width:100vw;
 } */
@@ -137,13 +146,9 @@ nav a{
     width:100vw;
   }
   .imageBox span{
-    position: absolute;
-    bottom:-20px;
-    font-size: 10px;
-    padding-left: 10px;
-    font-family: 'EB Garamond', serif;
-
+    
   }
+
   img{
     display: inline-block
   }
