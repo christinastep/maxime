@@ -71,7 +71,7 @@ table {
 }
 
 section{
-  max-width: 1800px;
+  max-width: 1650px;
   display: flex;
   flex-direction: column-reverse;
   font-family: "akkuratregular";
@@ -264,7 +264,8 @@ nav a{
   }
 }
 
-@media screen and (min-width: 2222px) {
+@media screen and (min-width: 2072px) {
+
   .headline{
     font-size: 120px;
   }  
