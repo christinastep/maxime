@@ -71,7 +71,7 @@ table {
 }
 
 section{
-  max-width: 1650px;
+  max-width: 1660px;
   display: flex;
   flex-direction: column-reverse;
   font-family: "akkuratregular";
@@ -272,6 +272,9 @@ nav a{
   p{
     font-size: 25px;
   } 
+  .imageBox span{
+    font-size: 0.85vw;
+  }
 }
 
 
